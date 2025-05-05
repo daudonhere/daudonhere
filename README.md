@@ -67,16 +67,13 @@
   </a>
 </p>
 
-
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:092E20,100:0f4d32&height=180&section=footer"/>
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg">
 </picture>
 
-###
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:092E20,100:0f4d32&height=180&section=footer"/>
+</p>

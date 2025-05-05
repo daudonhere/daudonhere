@@ -7,9 +7,9 @@
 <!-- GitHub Profile Summary -->
 <h2 align="center">Software Engineer | IoT Engineer | Web3 Engineer</h2>
 
-- 🔭 I’m currently work as a freelancer or fulltime software engineer.
-- 🌱 I’m currently learning **Solidity, and OpenZeppelin SDK** to enhance my Web3 skills.
-- 👯 I’m open to collaborating on **IoT**, **Web3**, and **Fullstack Projects**.
+<p align="center">
+  My name is Daud Yusup, many people know me as Raymond, I’m a software engineer with expertise primarily in Frontend Development, although I occasionally contribute to Backend work. Additionally, I have skills as an IoT Engineer and I am currently diving deeper into a new role as a Web3 Engineer.
+</p>
 
 ---
 
@@ -21,11 +21,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daudonhere&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
----
-
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,c,cs,cpp,java,python,solidity,arduino" />
+  </a>
+  <br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=astro,gatsby,nextjs,react,django,flask,fastapi,express,nodejs" />
   </a>
 </p>
 

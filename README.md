@@ -1,6 +1,6 @@
 <!-- Green Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:00BFFF&height=200&section=header&text=👋Hi%20There!%20I'm%20Daud%20Yusup%20&fontColor=ffffff&fontSize=40&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00DB25,100:58BF69&height=200&section=header&text=👋Hi%20There!%20I'm%20Daud%20Yusup%20&fontColor=ffffff&fontSize=40&animation=fadeIn" />
 </p>
 
 
@@ -75,5 +75,5 @@
 
 <!-- Footer -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:00BFFF&height=160&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00DB25,100:58BF69&height=160&section=footer"/>
 </p>

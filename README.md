@@ -14,29 +14,11 @@
 ---
 
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daudonhere&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=daudonhere&theme=radical" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,c,cs,cpp,java,python,solidity,arduino" />
-  </a>
-  <br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=astro,gatsby,nextjs,react,django,flask,fastapi,express,nodejs,redux,redis" />
-  </a>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=sass,tailwind,bootstrap,materialui,npm,pnpm,yarn,sequelize,mysql,mongodb,postgres" />
-  </a>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,arduino,firebase,graphql,jenkins,jest,supabase,webpack,threejs" />
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg">
+</picture>
 
 ---
 
@@ -66,12 +48,6 @@
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
   </a>
 </p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg">
-</picture>
 
 <!-- Footer -->
 <p align="center">

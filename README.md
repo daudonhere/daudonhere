@@ -8,7 +8,7 @@
 <h2 align="center">Software Engineer | IoT Engineer | Web3 Engineer</h2>
 
 <p align="center" style="width: 60%; max-width: 400px; margin: 0 auto;">
-  My name is Daud, many people know me as Raymond, I am a software engineer with main expertise in Frontend Development, although I sometimes contribute in Backend roles. In addition, I have skills as an IoT Engineer, currently I am exploring a new role as a Web3 Engineer.
+  A software engineer with main expertise in Frontend Development, although I sometimes contribute in Backend roles. In addition, I have skills as an IoT Engineer, currently I am exploring a new role as a Web3 Engineer.
 </p>
 
 ---

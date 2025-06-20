@@ -26,17 +26,8 @@
   <a href="https://discord.gg/AYm9sJnB">
     <img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white" />
   </a>
-  <a href="https://facebook.com/hellodaud">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/hellodadedaud">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
-  </a>
   <a href="https://medium.com/@hellodadedaud">
     <img src="https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white" />
-  </a>
-  <a href="https://tiktok.com/@helloraymond">
-    <img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" />
   </a>
   <a href="https://x.com/xmmmxxxa">
     <img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" />

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00DB25,100:58BF69&height=200&section=header&text=Cogito,%20Ergo%20Sum%20!!%20&fontColor=ffffff&fontSize=45&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e60202,100:631515&height=200&section=header&text=Cogito,%20Ergo%20Sum%20!!%20&fontColor=ffffff&fontSize=45&animation=fadeIn" />
 </p>
 
 

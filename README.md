@@ -3,10 +3,10 @@
 </p>
 
 
-<h2 align="center">Software Engineer | IoT Engineer | Web3 Engineer</h2>
+<h2 align="center">Software Engineer | IoT Specialist | AI & Blockhain Enthusiast</h2>
 
 <p align="center" style="width: 60%; max-width: 400px; margin: 0 auto;">
-  A software engineer with main expertise in Frontend Development, although I sometimes contribute in Backend roles. In addition, I have skills as an IoT Engineer, currently I am exploring a new role as a Web3 Engineer.
+  Every line of code is a solution to a constraint. My work across SaaS, fintech, IoT, and on chain systems is governed by the same principle. Reduce complexity, prove correctness, measure outcome. I treat architecture as applied logic. Elegant when minimal, reliable when tested, valuable when shipped.
 </p>
 
 ---

@@ -5,7 +5,7 @@
 <h2 align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">Software Engineer Centurion</h2>
 
 <p align="center" style="width: 60%; max-width: 400px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
-  "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+  "Sine exercitatione, scientia caret. Sine scientia, fiducia caret. Sine fiducia, victoria caret."
 </p>
 
 ---

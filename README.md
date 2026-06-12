@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00DB25,100:58BF69&height=200&section=header&text=Cogito,%20Ergo%20Sum%20&fontColor=ffffff&fontSize=45&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00DB25,100:58BF69&height=200&section=header&text=Cogito,%20Ergo%20Sum%20!!%20&fontColor=ffffff&fontSize=45&animation=fadeIn" />
 </p>
 
 
-<h2 align="center">Software Engineer | IoT Specialist | AI & Blockhain Enthusiast</h2>
+<h2 align="center">Software Engineer Centurion</h2>
 
 <p align="center" style="width: 60%; max-width: 400px; margin: 0 auto;">
-  Every line of code is a solution to a constraint. My work across SaaS, fintech, IoT, and on chain systems is governed by the same principle. Reduce complexity, prove correctness, measure outcome. I treat architecture as applied logic. Elegant when minimal, reliable when tested, valuable when shipped.
+  "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 </p>
 
 ---

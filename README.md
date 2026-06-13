@@ -1,13 +1,28 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e60202,100:631515&height=250&section=header&text=SOFTWARE%20ENGINEER%20CENTURION%20&fontColor=ffffff&fontSize=35&animation=fadeIn&fontFamily=sans-serif&width=1200"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e60202,100:631515&height=250&section=header&text=SOFTWARE%20ENGINEER%20CENTURION%20&fontColor=ffffff&fontSize=35&animation=fade" width="100%">
 </p>
 
 <h3 align="center" style="width: 60%; max-width: 400px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
   "Sine exercitatione scientia caret, Sine scientia fiducia caret, Sine fiducia victoria caret."
 </h3>
+
 ---
 
-<iframe src="https://cdn.jsdelivr.net/gh/daudonhere/daudonhere@main/components/most-languages-card.html" style="width:100%; border:none; height:auto;"></iframe>
+<div align="center">
+
+### 📊 Most Languages Used
+
+| Language | Percentage |
+|----------|-----------|
+| TypeScript | ████████████████░░░░ 52% |
+| Python | ██████░░░░░░░░░░░░░░ 18% |
+| HTML | ████░░░░░░░░░░░░░░░░ 10% |
+| C++ | ██░░░░░░░░░░░░░░░░░░ 8% |
+| JavaScript | ██░░░░░░░░░░░░░░░░░░ 7% |
+| Solidity | █░░░░░░░░░░░░░░░░░░░ 3% |
+| Lua | ░░░░░░░░░░░░░░░░░░░░ 2% |
+
+</div>
 
 ---
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os
 import requests
-import json
+import re
 from collections import defaultdict
 
 def get_all_repositories(username, token):
@@ -54,33 +54,14 @@ def create_progress_bar(percentage, width=20):
 def generate_languages_table(all_languages):
     """Generate markdown table for languages"""
     if not all_languages:
-        return "No language data available"
+        return "| No data | - | - |"
     
     total_bytes = sum(all_languages.values())
     
     # Sort by bytes (descending) and get top 10
     sorted_langs = sorted(all_languages.items(), key=lambda x: x[1], reverse=True)[:10]
     
-    # Color mapping for languages
-    lang_colors = {
-        'TypeScript': '#3178c6',
-        'Python': '#3776ab',
-        'JavaScript': '#f7df1e',
-        'HTML': '#e34c26',
-        'CSS': '#563d7c',
-        'Java': '#007396',
-        'Go': '#00add8',
-        'Rust': '#ce422b',
-        'C++': '#00599c',
-        'C#': '#239120',
-        'PHP': '#777bb4',
-        'Ruby': '#cc342d',
-        'Solidity': '#aa6746',
-        'Lua': '#000080',
-    }
-    
-    table = "| Language | Usage | Bytes |\n"
-    table += "|----------|-------|-------|\n"
+    table = ""
     
     for lang, bytes_count in sorted_langs:
         percentage = (bytes_count / total_bytes) * 100
@@ -89,7 +70,7 @@ def generate_languages_table(all_languages):
         
         table += f"| {lang} | {progress_bar} {percentage:.1f}% | {formatted_bytes} |\n"
     
-    return table
+    return table.strip()
 
 def update_readme(readme_path, languages_table):
     """Update README.md with languages table"""
@@ -97,28 +78,35 @@ def update_readme(readme_path, languages_table):
         content = f.read()
     
     # Find and replace the languages section
-    start_marker = "### 📊 Most Languages Used\n"
-    end_marker = "\n---"
+    # Pattern: find "### 📊 Most Languages Used" then the table header, then replace until we hit blank line or </div>
+    pattern = r'(### 📊 Most Languages Used\n\n\| Language \| Usage \| Bytes \|\n\|--+\|--+\|--+\|\n)(.*?)(\n\s*</div>|\n\s*---)'
     
-    if start_marker in content:
-        start_idx = content.find(start_marker) + len(start_marker)
-        end_idx = content.find(end_marker, start_idx)
-        
-        if end_idx != -1:
-            new_content = (
-                content[:start_idx] +
-                "\n" + languages_table + "\n" +
-                content[end_idx:]
-            )
+    new_section = r'\1' + languages_table + r'\3'
+    new_content = re.sub(pattern, new_section, content, flags=re.DOTALL)
+    
+    # If regex didn't work, try simpler approach
+    if new_content == content:
+        # Fallback: find table header and replace until next section
+        start_marker = "| Language | Usage | Bytes |\n|----------|-------|-------|"
+        if start_marker in content:
+            start_idx = content.find(start_marker) + len(start_marker)
+            # Find next empty line or closing div
+            end_idx = content.find("\n\n", start_idx)
+            if end_idx == -1:
+                end_idx = content.find("</div>", start_idx)
             
-            with open(readme_path, 'w', encoding='utf-8') as f:
-                f.write(new_content)
-            
-            print("✅ README.md updated successfully!")
-            return True
-    else:
-        print("⚠️ Language section not found in README.md")
-        return False
+            if end_idx != -1:
+                new_content = (
+                    content[:start_idx] +
+                    "\n" + languages_table +
+                    content[end_idx:]
+                )
+    
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    print("✅ README.md updated successfully!")
+    return True
 
 def main():
     # Get credentials from environment
@@ -139,7 +127,7 @@ def main():
     print("📊 Fetching language statistics...")
     for i, repo in enumerate(repos, 1):
         repo_name = repo['name']
-        print(f"  [{i}/{len(repos)}] {repo_name}...", end=' ')
+        print(f"  [{i}/{len(repos)}] {repo_name}...", end=' ', flush=True)
         
         languages = get_repository_languages(username, repo_name, token)
         for lang, bytes_count in languages.items():
@@ -156,6 +144,7 @@ def main():
     
     # Generate languages table
     languages_table = generate_languages_table(all_languages)
+    print(f"\n📝 Generated table:\n{languages_table}\n")
     
     # Update README.md
     readme_path = 'README.md'

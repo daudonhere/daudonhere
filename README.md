@@ -24,8 +24,8 @@
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-stats.vercel.app/api?username=daudonhere&show_icons=true&hide_border=true&title_color=ffffff&text_color=ffffff&icon_color=e60202&bg_color=30,e60202,631515&hide=contribs"
-    alt="Daud GitHub Stats"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=radical"
+    alt="Daud GitHub Profile Summary"
   />
 </p>
 

@@ -19,7 +19,17 @@ jobs:
       - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: USERNAME_GITHUB_KAMU
+          github_user_name: daudonhere
+
+      - name: Recolor contribution boxes to red
+        run: |
+          find dist -name "*.svg" -type f -exec sed -i \
+            -e 's/#9be9a8/#ffb3b3/g' \
+            -e 's/#40c463/#ff4d4d/g' \
+            -e 's/#30a14e/#e60202/g' \
+            -e 's/#216e39/#631515/g' \
+            -e 's/#0e4429/#3b0b0b/g' \
+            {} \;
 
       - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v4

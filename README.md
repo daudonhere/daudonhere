@@ -8,17 +8,29 @@
 
 <br />
 
-<!-- MOST USED LANGUAGES & REPOSITORY STATS -->
 <p align="center">
   <img
-    width="40%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=daudonhere&layout=compact&hide_border=true&title_color=ffffff&text_color=ffffff&bg_color=30,e60202,631515&langs_count=10"
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=radical"
+    alt="Daud GitHub Profile Summary"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
+    alt="Repositories Per Language"
+  />
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
+    alt="Most Commit Language"
   />
 </p>
 
 <br />
 
-<!-- PACMAN CONTRIBUTION GRAPH -->
 <p align="center">
   <picture>
     <source

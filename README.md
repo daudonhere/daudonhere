@@ -11,7 +11,7 @@
 <!-- MOST USED LANGUAGES & REPOSITORY STATS -->
 <p align="center">
   <img
-    width="50%"
+    width="40%"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=daudonhere&layout=compact&hide_border=true&title_color=ffffff&text_color=ffffff&bg_color=30,e60202,631515&langs_count=10"
   />
 </p>

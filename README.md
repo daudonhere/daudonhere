@@ -3,18 +3,10 @@
 </p>
 
 <h3 align="center">
-  Sine exercitatione scientia caret, Sine scientia fiducia caret, Sine fiducia victoria caret.
+  <em>Sine exercitatione scientia caret, Sine scientia fiducia caret, Sine fiducia victoria caret.</em>
 </h3>
 
 <br />
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=radical"
-    alt="Daud GitHub Profile Summary"
-  />
-</p>
 
 <p align="center">
   <img
@@ -26,6 +18,14 @@
     width="49%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
     alt="Most Commit Language"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=radical"
+    alt="Daud GitHub Profile Summary"
   />
 </p>
 

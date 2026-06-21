@@ -10,22 +10,19 @@
 
 <p align="center">
   <img
-    width="49%"
+    width="33%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
     alt="Repositories Per Language"
   />
   <img
-    width="49%"
+    width="33%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=radical"
+    alt="GitHub Profile Summary"
+  />
+  <img
+    width="33%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
     alt="Most Commit Language"
-  />
-</p>
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=radical"
-    alt="Daud GitHub Profile Summary"
   />
 </p>
 
@@ -38,7 +35,7 @@
       srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph-dark.svg"
     />
     <source
-      media="(prefers-color-scheme: light)"
+      media="(prefers-color-scheme: dark)"
       srcset="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg"
     />
     <img

@@ -5,12 +5,12 @@
 <p align="center">
   <img
     width="39%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daudonhere&theme=radical"
     alt="Repositories Per Language"
   />
   <img
     width="39%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=radical&exclude=JavaScript,HTML,CSS"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=radical"
     alt="Most Commit Language"
   />
 </p>

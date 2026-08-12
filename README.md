@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e60202,100:631515&height=250&section=header&text=Sine%20Exercitatione%20Scientia%20Caret,%20Sine%20Scientia%20Fiducia%20Caret,%20Sine%20Fiducia%20Victoria%20Caret.&fontColor=ffffff&fontSize=18&animation=fade&autoplay=true" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffea00,100:631515&height=250&section=header&text=Sine%20Exercitatione%20Scientia%20Caret,%20Sine%20Scientia%20Fiducia%20Caret,%20Sine%20Fiducia%20Victoria%20Caret.&fontColor=ffffff&fontSize=18&animation=fade&autoplay=true" />
 </p>
 
 <p align="center">
@@ -46,5 +46,5 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e60202,100:631515&height=180&section=footer&width=1200&fontFamily=sans-serif"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ffea00,100:631515&height=180&section=footer&width=1200&fontFamily=sans-serif"/>
 </p>

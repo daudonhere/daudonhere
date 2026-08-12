@@ -1,9 +1,11 @@
-name: Generate Pacman Contribution Graph
+name: Generate Yellow Pacman Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */24 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
@@ -16,23 +18,66 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate pacman contribution graph
+      - name: Generate Pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: daudonhere
+          github_user_name: ${{ github.repository_owner }}
 
-      - name: Recolor contribution boxes to red
+      - name: Install XML tools
         run: |
-          find dist -name "*.svg" -type f -exec sed -i \
-            -e 's/#9be9a8/#ffb3b3/g' \
-            -e 's/#40c463/#ff4d4d/g' \
-            -e 's/#30a14e/#e60202/g' \
-            -e 's/#216e39/#631515/g' \
-            -e 's/#0e4429/#3b0b0b/g' \
-            {} \;
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
 
-      - name: Push generated files
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Convert contribution colors to yellow
+        shell: bash
+        run: |
+          set -e
+
+          for file in dist/*.svg
+          do
+            echo "Processing: $file"
+
+            # Replace ALL GitHub contribution green colors
+            sed -i \
+              -e 's/#ebedf0/#FFF9A6/gI' \
+              -e 's/#9be9a8/#FFF76A/gI' \
+              -e 's/#40c463/#FFF200/gI' \
+              -e 's/#30a14e/#FFE900/gI' \
+              -e 's/#216e39/#D9C900/gI' \
+              -e 's/#39d353/#FFF200/gI' \
+              -e 's/#26a641/#FFE900/gI' \
+              -e 's/#006d32/#D9C900/gI' \
+              "$file"
+
+            # Replace common Pacman red colors
+            sed -i \
+              -e 's/#ff0000/#FFF200/gI' \
+              -e 's/#f00/#FFF200/gI' \
+              -e 's/#ff4500/#FFF200/gI' \
+              -e 's/#dc2626/#FFF200/gI' \
+              -e 's/#ef4444/#FFF200/gI' \
+              "$file"
+
+            # Replace RGB red
+            sed -i \
+              -e 's/rgb(255,0,0)/rgb(255,242,0)/gI' \
+              -e 's/rgb(255, 0, 0)/rgb(255, 242, 0)/gI' \
+              "$file"
+
+            # Replace HSL red
+            sed -i \
+              -e 's/hsl(0,100%,50%)/hsl(57,100%,50%)/gI' \
+              "$file"
+
+          done
+
+          echo "=================================="
+          echo "Yellow Pacman conversion complete"
+          echo "Primary: #FFF200"
+          echo "=================================="
+
+      - name: Publish generated SVG
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist

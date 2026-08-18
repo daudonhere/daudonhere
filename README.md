@@ -6,7 +6,7 @@
   />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img
     width="39%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daudonhere&theme=github_dark"
@@ -17,7 +17,7 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=github_dark"
     alt="Most Commit Language"
   />
-</p>
+</p> -->
 
 <br />
 
@@ -41,13 +41,13 @@
 
 <br />
 
-<p align="center">
+<!-- <p align="center">
   <img
     width="80%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=github_dark"
     alt="GitHub Profile Summary"
   />
-</p>
+</p> -->
 
 <br />
 

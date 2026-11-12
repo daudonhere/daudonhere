@@ -1,7 +1,7 @@
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=FFF200&height=250&section=header&text=Sine%20Exercitatione%20Scientia%20Caret,%20Sine%20Scientia%20Fiducia%20Caret,%20Sine%20Fiducia%20Victoria%20Caret.&fontColor=000000&fontSize=18&animation=fade&fontAlignY=40"
+    src="https://capsule-render.vercel.app/api?type=waving&color=FFF200&height=250&section=header&text=No%20better%20friend,%20no%20worse%20enemy.&fontColor=000000&fontSize=28&animation=fade&fontAlignY=40"
     alt="Header"
   />
 </p>

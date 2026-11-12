@@ -1,12 +1,12 @@
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=FFF200&height=250&section=header&text=No%20better%20friend,%20no%20worse%20enemy.&fontColor=000000&fontSize=28&animation=fade&fontAlignY=40"
+    src="https://capsule-render.vercel.app/api?type=waving&color=998018&height=250&section=header&text=No%20Better%20Friend,%20No%20Worse%20Enemy.&fontColor=FFFFFF&fontSize=28&animation=fade&fontAlignY=40"
     alt="Header"
   />
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <img
     width="39%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daudonhere&theme=github_dark"
@@ -17,7 +17,7 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=daudonhere&theme=github_dark"
     alt="Most Commit Language"
   />
-</p> -->
+</p>
 
 <br />
 
@@ -33,7 +33,7 @@
     />
     <img
       width="100%"
-      alt="Yellow Pacman contribution graph"
+      alt="Brown Pacman contribution graph"
       src="https://raw.githubusercontent.com/daudonhere/daudonhere/output/pacman-contribution-graph.svg"
     />
   </picture>
@@ -41,20 +41,20 @@
 
 <br />
 
-<!-- <p align="center">
+<p align="center">
   <img
     width="80%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=github_dark"
     alt="GitHub Profile Summary"
   />
-</p> -->
+</p>
 
 <br />
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=FFF200&height=180&section=footer&fontColor=000000&fontFamily=sans-serif"
+    src="https://capsule-render.vercel.app/api?type=waving&color=998018&height=180&section=footer&fontColor=FFFFFF&fontFamily=sans-serif"
     alt="Footer"
   />
 </p>

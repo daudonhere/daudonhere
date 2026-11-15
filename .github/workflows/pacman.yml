@@ -1,4 +1,4 @@
-name: Generate Yellow Pacman Contribution Graph
+name: Generate Green Pacman Contribution Graph
 
 on:
   schedule:
@@ -39,14 +39,14 @@ jobs:
 
             # Replace ALL GitHub contribution green colors
             sed -i \
-              -e 's/#ebedf0/#FFF9A6/gI' \
-              -e 's/#9be9a8/#FFF76A/gI' \
+              -e 's/#ebedf0/#7aeb5e/gI' \
+              -e 's/#9be9a8/#2ebf0a/gI' \
               -e 's/#40c463/#2ebf0a/gI' \
-              -e 's/#30a14e/#FFE900/gI' \
+              -e 's/#30a14e/#09ff00/gI' \
               -e 's/#216e39/#D9C900/gI' \
               -e 's/#39d353/#2ebf0a/gI' \
-              -e 's/#26a641/#FFE900/gI' \
-              -e 's/#006d32/#D9C900/gI' \
+              -e 's/#26a641/#05ed09/gI' \
+              -e 's/#006d32/#02c905/gI' \
               "$file"
 
             # Replace common Pacman red colors

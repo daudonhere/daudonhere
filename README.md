@@ -43,7 +43,7 @@
 
 <p align="center">
   <img
-    width="80%"
+    width="100%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=github_dark"
     alt="GitHub Profile Summary"
   />

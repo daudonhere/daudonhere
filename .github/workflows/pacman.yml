@@ -41,21 +41,21 @@ jobs:
             sed -i \
               -e 's/#ebedf0/#FFF9A6/gI' \
               -e 's/#9be9a8/#FFF76A/gI' \
-              -e 's/#40c463/#FFF200/gI' \
+              -e 's/#40c463/#2ebf0a/gI' \
               -e 's/#30a14e/#FFE900/gI' \
               -e 's/#216e39/#D9C900/gI' \
-              -e 's/#39d353/#FFF200/gI' \
+              -e 's/#39d353/#2ebf0a/gI' \
               -e 's/#26a641/#FFE900/gI' \
               -e 's/#006d32/#D9C900/gI' \
               "$file"
 
             # Replace common Pacman red colors
             sed -i \
-              -e 's/#ff0000/#FFF200/gI' \
-              -e 's/#f00/#FFF200/gI' \
-              -e 's/#ff4500/#FFF200/gI' \
-              -e 's/#dc2626/#FFF200/gI' \
-              -e 's/#ef4444/#FFF200/gI' \
+              -e 's/#ff0000/#2ebf0a/gI' \
+              -e 's/#f00/#2ebf0a/gI' \
+              -e 's/#ff4500/#2ebf0a/gI' \
+              -e 's/#dc2626/#2ebf0a/gI' \
+              -e 's/#ef4444/#2ebf0a/gI' \
               "$file"
 
             # Replace RGB red
@@ -72,8 +72,8 @@ jobs:
           done
 
           echo "=================================="
-          echo "Yellow Pacman conversion complete"
-          echo "Primary: #FFF200"
+          echo "Green Pacman conversion complete"
+          echo "Primary: #2ebf0a"
           echo "=================================="
 
       - name: Publish generated SVG

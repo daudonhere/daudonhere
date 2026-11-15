@@ -44,16 +44,6 @@
 <p align="center">
   <img
     width="100%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daudonhere&theme=github_dark"
-    alt="GitHub Profile Summary"
-  />
-</p>
-
-<br />
-
-<p align="center">
-  <img
-    width="100%"
     src="https://capsule-render.vercel.app/api?type=waving&color=2ebf0a&height=180&section=footer&fontColor=FFFFFF&fontFamily=sans-serif"
     alt="Footer"
   />
